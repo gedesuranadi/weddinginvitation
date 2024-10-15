@@ -1,0 +1,152 @@
+
+ /* Responsive adjustments */
+ @media (max-width: 600px) {
+
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+:root{
+    --height: 100vh;
+    --max-width: 1080px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* border: solid 1px red; */
+}
+
+.second-container{
+  position: relative;
+  height: var(--height);
+  max-width: var(--max-width);
+  width: 100%;
+  /* border: solid 1px red; */
+  display: flex;
+  /* background-color: aqua; */
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  /* transform: translateX(-50%); */
+  width: 100%;
+  height: auto;
+  /* margin: 10px;  */
+}
+
+.wiggle{
+    animation: wiggle 3s infinite;
+}
+.font-bold{
+    font-weight: bolder;
+}
+@keyframes wiggle {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    75% {
+        transform: rotate(-2deg);
+    }
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  height: auto;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 45%;
+  height: auto;
+}
+
+.guest-box{
+  /* background-color: aqua; */
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-top: -20px;
+}
+
+.guest-frame{
+  width: 250px;
+}
+
+.text-overlay {
+  position: relative;
+  bottom: 50%;
+  /* left: 10px;  */
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-box{
+  /* background-color: aqua; */
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.main-btn {
+  background-color: aqua;
+  font-size: 20pt;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  /* margin-top: -20px; */
+  text-align: center;
+}
+
+
+.border-red{
+  border: solid 1px red
+}
+
+.main-img{
+  max-width: 95%;
+}
+
+.img-2{
+  max-width: 75%;
+}
+
+
+.main-container{
+  position: relative;
+  max-width: 1080px;
+  height: max-content;
+  /* border: solid 1px red; */
+  display: flex;
+  /* background-color: aqua; */
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
