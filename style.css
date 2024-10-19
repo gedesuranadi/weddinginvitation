@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
  /* Responsive adjustments */
  @media (max-width: 600px) {
 
@@ -19,6 +19,7 @@ body, html {
   display: flex;
   justify-content: center;
   /* border: solid 1px red; */
+  background-color: antiquewhite;
 }
 
 .second-container{
@@ -131,7 +132,10 @@ body, html {
 }
 
 .main-img{
-  max-width: 95%;
+  max-width: 100%;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  /* border: solid 2px red; */
 }
 
 .img-2{
@@ -139,7 +143,7 @@ body, html {
 }
 
 
-.main-container{
+.main-container-c{
   position: relative;
   max-width: 1080px;
   height: max-content;
@@ -149,4 +153,34 @@ body, html {
   /* justify-content: center; */
   flex-direction: column;
   align-items: center;
+}
+
+.main-container-c h2{
+  font-weight:normal;
+  font-size: 5vh;
+  font-family: "Lavishly Yours", cursive;
+  /* color: goldenrod; */
+}
+
+.main-container-c h3{
+  font-size: 3vh;
+  font-family: "Lavishly Yours", cursive;
+  text-align: center;
+  opacity: 0.80;
+}
+
+.main-container-c h4{
+  font-size: 5vh;
+  margin-bottom: 10px;
+  font-family: "Lavishly Yours", cursive;
+  color: goldenrod;
+}
+
+
+.main-container-c span{
+  font-weight: bold;
+  font-size: 5vh;
+  margin-bottom: 10px;
+  font-family: "Lavishly Yours", cursive;
+  color: rgb(108, 0, 103);
 }
