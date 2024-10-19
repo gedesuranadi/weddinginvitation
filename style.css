@@ -132,7 +132,7 @@ body, html {
 }
 
 .main-img{
-  max-width: 100%;
+  max-width: 100vw;
   margin-top: 3vh;
   margin-bottom: 5vh;
   /* border: solid 2px red; */
