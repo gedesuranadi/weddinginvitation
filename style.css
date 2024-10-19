@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
  /* Responsive adjustments */
+
+
  @media (max-width: 600px) {
 
 }
@@ -18,7 +20,6 @@ body, html {
   padding: 0;
   display: flex;
   justify-content: center;
-  /* border: solid 1px red; */
   background-color: antiquewhite;
 }
 
@@ -132,10 +133,10 @@ body, html {
 }
 
 .main-img{
-  max-width: 100vw;
+  width: 700px;
   margin-top: 3vh;
   margin-bottom: 5vh;
-  /* border: solid 2px red; */
+  border: solid 2px red;
 }
 
 .img-2{
@@ -145,7 +146,7 @@ body, html {
 
 .main-container-c{
   position: relative;
-  max-width: 1080px;
+  max-width: 100vw;
   height: max-content;
   /* border: solid 1px red; */
   display: flex;
