@@ -218,3 +218,7 @@ body, html {
   /* object-fit: cover;  */
   z-index: 0; /* Place the image behind other content */
 }
+
+.date{
+  max-width: 25%;
+}
