@@ -219,4 +219,6 @@ body, html {
   z-index: 0; /* Place the image behind other content */
 }
 
-
+.date{
+  max-width: 50vw;
+}
