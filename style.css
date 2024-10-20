@@ -185,3 +185,7 @@ body, html {
   font-family: "Lavishly Yours", cursive;
   color: rgb(108, 0, 103);
 }
+
+.img-fluid{
+  border-radius: 20px;
+}
