@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
- /* Responsive adjustments */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 
-
- @media (max-width: 600px) {
-
+@media (max-width: 600px) {
 }
 @media (min-width: 601px) and (max-width: 1024px) {
   
@@ -205,7 +203,10 @@ body, html {
 }
 
 .container p{
-  text-align: center;
+  text-align: justify;
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .background-image {
